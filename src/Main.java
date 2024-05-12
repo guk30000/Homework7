@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //Задача 1
@@ -71,11 +73,7 @@ public class Main {
             if (arr[i] % 2 != 0){
                 arr[i]++;
             }
-            if (i == arr.length - 1){
-                System.out.println(arr[i]);
-                break;
-            }
-            System.out.print(arr[i] + ",");
         }
+        System.out.println(Arrays.toString (arr));
     }
 }
